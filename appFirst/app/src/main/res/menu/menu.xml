@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/createGrp"
+        android:title="Create Group"
+        />
+    <group />
+    <item
+        android:id="@+id/joinMeet"
+        android:title="Join Meeting"
+        />
+    <item
+        android:id="@+id/newMeet"
+        android:title="Create Meeting"
+        />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        />
+</menu>

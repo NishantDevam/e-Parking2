@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myProfile"
+        android:title="MyProfile"
+        />
+    <item
+        android:id="@+id/createGroup"
+        android:title="Create Group"
+        />
+    <item
+        android:id="@+id/joinMeet"
+        android:title="Join Meeting"
+        />
+    <item
+        android:id="@+id/createMeet"
+        android:title="Create Meeting"
+        />
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="LogOut"
+        />
+</menu>

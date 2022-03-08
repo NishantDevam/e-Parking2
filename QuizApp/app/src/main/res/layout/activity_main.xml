@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Of Questions Attempted:-"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/quesAttempted"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questions"
+        android:layout_below="@id/quesAttempted"
+        android:layout_marginTop="70dp"
+        android:text="Question"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questions"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="Option A"
+            android:textAllCaps="false"
+            android:id="@+id/BtnOptionA"
+            android:layout_below="@id/questions"
+            android:background="@color/white"
+            app:backgroundTint="@color/purple_200"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        android:text="Option B"
+        android:textAllCaps="false"
+        android:id="@+id/BtnOptionB"
+        android:layout_below="@id/BtnOptionA"
+        android:background="@color/white"
+        app:backgroundTint="@color/purple_200"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        android:text="Option C"
+        android:textAllCaps="false"
+        android:id="@+id/BtnOptionC"
+        android:layout_below="@id/BtnOptionB"
+        android:background="@color/white"
+        app:backgroundTint="@color/purple_200"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        android:text="Option D"
+        android:textAllCaps="false"
+        android:id="@+id/BtnOptionD"
+        android:layout_below="@id/BtnOptionC"
+        android:background="@color/white"
+        app:backgroundTint="@color/purple_200"
+        />
+</LinearLayout>
+
+
+
+</RelativeLayout>
